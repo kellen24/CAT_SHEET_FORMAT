@@ -1,0 +1,54 @@
+body, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+   
+    padding: 20px;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.table-container {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #eaf7a1;
+    font-weight: bold;
+}
+
+th {
+    background-color: rgb(112, 245, 245);
+    font-weight: bold;
+}
+
+.table-container table th[colspan="3"],
+.table-container table th[colspan="4"] {
+    background-color: #f1f1f1;
+}
